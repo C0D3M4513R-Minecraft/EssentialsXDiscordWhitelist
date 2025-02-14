@@ -173,49 +173,49 @@
                         <!--                         sponge configurate and deps-->
                         <relocation>
                             <pattern>com.google.auto.value</pattern>
-                            <shadedPattern>com.c0d3m4513r.plugins.acl.shade.autovalue</shadedPattern>
+                            <shadedPattern>com.c0d3m4513r.plugins.essentialsxwhitelist.shade.autovalue</shadedPattern>
                         </relocation>
                         <relocation>
                             <pattern>org.yaml.snakeyaml</pattern>
-                            <shadedPattern>com.c0d3m4513r.plugins.acl.shade.snakeyaml</shadedPattern>
+                            <shadedPattern>com.c0d3m4513r.plugins.essentialsxwhitelist.shade.snakeyaml</shadedPattern>
                         </relocation>
                         <relocation>
                             <pattern>io.leangen.geantyref</pattern>
-                            <shadedPattern>com.c0d3m4513r.plugins.acl.shade.geantyref</shadedPattern>
+                            <shadedPattern>com.c0d3m4513r.plugins.essentialsxwhitelist.shade.geantyref</shadedPattern>
                         </relocation>
                         <relocation>
                             <pattern>com.google.errorprone</pattern>
-                            <shadedPattern>com.c0d3m4513r.plugins.acl.shade.errorprone</shadedPattern>
+                            <shadedPattern>com.c0d3m4513r.plugins.essentialsxwhitelist.shade.errorprone</shadedPattern>
                         </relocation>
                         <!-- My  own libs-->
                         <relocation>
                             <pattern>com.c0d3m4513r.PurePredicate</pattern>
-                            <shadedPattern>com.c0d3m4513r.plugins.acl.shade.PurePredicate</shadedPattern>
+                            <shadedPattern>com.c0d3m4513r.plugins.essentialsxwhitelist.shade.PurePredicate</shadedPattern>
                         </relocation>
                         <relocation>
                             <pattern>com.c0d3m4513r.Tuple</pattern>
-                            <shadedPattern>com.c0d3m4513r.plugins.acl.shade.Tuple</shadedPattern>
+                            <shadedPattern>com.c0d3m4513r.plugins.essentialsxwhitelist.shade.Tuple</shadedPattern>
                         </relocation>
                         <relocation>
                             <pattern>com.c0d3m4513r.logger</pattern>
-                            <shadedPattern>com.c0d3m4513r.plugins.acl.shade.logger</shadedPattern>
+                            <shadedPattern>com.c0d3m4513r.plugins.essentialsxwhitelist.shade.logger</shadedPattern>
                         </relocation>
                         <relocation>
                             <pattern>com.c0d3m4513r.config</pattern>
-                            <shadedPattern>com.c0d3m4513r.plugins.acl.shade.config</shadedPattern>
+                            <shadedPattern>com.c0d3m4513r.plugins.essentialsxwhitelist.shade.config</shadedPattern>
                         </relocation>
                         <relocation>
                             <pattern>org.slf4j.Marker</pattern>
-                            <shadedPattern>com.c0d3m4513r.plugins.acl.shade.slf4j.Marker</shadedPattern>
+                            <shadedPattern>com.c0d3m4513r.plugins.essentialsxwhitelist.shade.slf4j.Marker</shadedPattern>
                         </relocation>
                         <relocation>
                             <pattern>org.slf4j.Logger</pattern>
-                            <shadedPattern>com.c0d3m4513r.plugins.acl.shade.slf4j.Logger</shadedPattern>
+                            <shadedPattern>com.c0d3m4513r.plugins.essentialsxwhitelist.shade.slf4j.Logger</shadedPattern>
                         </relocation>
                         <!-- checkerframework annotations -->
                         <relocation>
                             <pattern>org.checkerframework</pattern>
-                            <shadedPattern>com.c0d3m4513r.plugins.acl.shade.checkerframework</shadedPattern>
+                            <shadedPattern>com.c0d3m4513r.plugins.essentialsxwhitelist.shade.checkerframework</shadedPattern>
                         </relocation>
                     </relocations>
                 </configuration>
