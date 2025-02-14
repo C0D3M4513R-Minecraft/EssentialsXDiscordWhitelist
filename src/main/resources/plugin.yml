@@ -1,0 +1,7 @@
+name: EssentialsXDiscord_Whitelist
+main: com.c0d3m4513r.plugins.essentialsxwhitelist.Plugin
+version: ${version}
+description: Adds a Discord command to manage the whitelist.
+authors: [C0D3 M4513R]
+depend: [Essentials, EssentialsDiscord]
+api-version: 1.13
