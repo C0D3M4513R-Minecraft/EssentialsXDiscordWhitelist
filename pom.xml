@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.c0d3m4513r.plugins</groupId>
     <artifactId>EssentialsXDiscordWhitelist</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <name>EssentialsXDiscord Whitelist</name>
 
     <parent>
