@@ -25,9 +25,16 @@ public class Config implements IConfigLoadableSaveable {
 
     @NonNull
     @LoadableSaveable
-    private final ListConfigEntry<String> add_allowed_role_ids = new ListConfigEntry<>(new ClassValue<>(Arrays.asList(), String.class), "add_allowed_role_ids");
+    private final ListConfigEntry<Long> add_allowed_role_ids = new ListConfigEntry<>(new ClassValue<>(Arrays.asList(), Long.class), "add_allowed_role_ids");
 
     @NonNull
     @LoadableSaveable
-    private final ListConfigEntry<String> remove_allowed_role_ids = new ListConfigEntry<>(new ClassValue<>(Arrays.asList(), String.class), "remove_allowed_role_ids");
+    private final ListConfigEntry<Long> remove_allowed_role_ids = new ListConfigEntry<>(new ClassValue<>(Arrays.asList(), Long.class), "remove_allowed_role_ids");
+    @NonNull
+    @LoadableSaveable
+    private final ListConfigEntry<Long> add_allowed_user_ids = new ListConfigEntry<>(new ClassValue<>(Arrays.asList(), Long.class), "add_allowed_user_ids");
+
+    @NonNull
+    @LoadableSaveable
+    private final ListConfigEntry<Long> remove_allowed_user_ids = new ListConfigEntry<>(new ClassValue<>(Arrays.asList(), Long.class), "remove_allowed_user_ids");
 }
